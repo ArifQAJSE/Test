@@ -10,7 +10,7 @@ public class HomePage {
 	private final Element FeaturedAndRecommendedBanner = new Element(By.xpath("//div[contains(@id,'home_maincap')]"));
 	private final Links PrivacyPolicy = new Links(By.xpath("//div[@id='footer_text']//a[contains(text(),'Privacy Policy')]"));
 	
-	private final Element homepage = new Element(By.xpath("//h1[contains(text(),'Unparalleled Growth and Excellence of')]"));
+	private final Element homepage = new Element(By.xpath("//h1[contains(text(),'Unparalleled Growth and Excellence of skd')]"));
 
 	public boolean FeaturedAndRecommendedBannerIsDisplayed() {
 		return FeaturedAndRecommendedBanner.isDisplayed();
